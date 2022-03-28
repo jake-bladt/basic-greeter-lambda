@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Threading.Tasks;
 
 using Amazon.DynamoDBv2;
@@ -38,26 +37,28 @@ namespace BasicLambda
         public int StepsCount { get; set; }
     }
 
+    public class StepsDataResult
+    {
+        public List<StepsData> DailyResults { get; protected set; }
+        public string UserName { get; protected set; }
+        public StepsDataResult(string name, List<StepsData> lst)
+        {
+            UserName = name;
+            DailyResults = lst;
+        }
+    }
+
 
     public class Function
     {
-        public List<StepsData> FunctionHandler(Person input, ILambdaContext context)
+        public StepsDataResult FunctionHandler(Person input, ILambdaContext context)
         {
             var task = FunctionHandlerAsync(input, context);
-            return task.Result;
+            return new StepsDataResult(input.Name, task.Result);
         }
         
         public async Task<List<StepsData>> FunctionHandlerAsync(Person input, ILambdaContext context)
         {
-            string greeting = $"Welcome, {input.Name}";
-            string specs = $"Request Id: " + context.AwsRequestId + ", ";
-            specs += "Function Name: " + context.FunctionName + ", ";
-            specs += "Function Version: " + context.FunctionVersion + ", ";
-            specs += "Time Remaining: " + context.RemainingTime + ", ";
-            specs += "Memory Limit (in MB): " + context.MemoryLimitInMB.ToString();
-            string message = $"{greeting}.{Environment.NewLine}{specs}";
-            Trace.WriteLine(message);
-
             var client = new AmazonDynamoDBClient();
             var table = Table.LoadTable(client, "walker_steps_data");
             
