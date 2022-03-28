@@ -62,7 +62,11 @@ namespace BasicLambda
             var table = Table.LoadTable(client, "walker_steps_data");
             
             var filter = new QueryFilter();
-            filter.AddCondition("user_name", QueryOperator.Equal, input.Name.ToLower());
+            var userName = input.Name.ToLower();
+            var specificKey = $"{userName}@20220101";
+
+            filter.AddCondition("user_date_key", QueryOperator.Equal, specificKey);
+            // filter.AddCondition("user_name", QueryOperator.Equal, userName);
 
             var config = new QueryOperationConfig
             {
