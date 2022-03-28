@@ -7,6 +7,12 @@ using Amazon.Lambda.Core;
 
 namespace BasicLambda
 {
+    public class Person
+    {
+        public string Name { get; set; }
+    }
+
+
     public class Function
     {
         
@@ -16,9 +22,9 @@ namespace BasicLambda
         /// <param name="input"></param>
         /// <param name="context"></param>
         /// <returns></returns>
-        public string FunctionHandler(string input, ILambdaContext context)
+        public string FunctionHandler(Person input, ILambdaContext context)
         {
-            string greeting = $"Welcome, {input}";
+            string greeting = $"Welcome, {input.Name}";
             string specs = $"Request Id: " + context.AwsRequestId + ", ";
             specs += "Function Name: " + context.FunctionName + ", ";
             specs += "Function Version: " + context.FunctionVersion + ", ";

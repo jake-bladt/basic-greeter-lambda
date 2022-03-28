@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "TTY15PmId/brwuNCebMK4Rxe/DRjWkmuxuhDtlbfz9HqJIfYXVAy7v1jjSm7tfmAmvFDkg+TOJUVWOMSmEXI9w==",
+  "dgSpecHash": "q7joD53X+mLkQyZjfoGYrGIbk7MPGE8V5aBEmbpp3vAsHxXRuycLMAXu38fs6Pr4NML9iEhTrZuBrxZ8istx2Q==",
   "success": true,
   "projectFilePath": "E:\\code\\BasicLambda\\BasicLambda\\BasicLambda.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jake\\.nuget\\packages\\amazon.lambda.core\\2.1.0\\amazon.lambda.core.2.1.0.nupkg.sha512",
-    "C:\\Users\\jake\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.2.0\\amazon.lambda.serialization.systemtextjson.2.2.0.nupkg.sha512"
+    "C:\\Users\\jake\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.2.0\\amazon.lambda.serialization.systemtextjson.2.2.0.nupkg.sha512",
+    "C:\\Users\\jake\\.nuget\\packages\\awssdk.core\\3.7.9.2\\awssdk.core.3.7.9.2.nupkg.sha512",
+    "C:\\Users\\jake\\.nuget\\packages\\awssdk.dynamodbv2\\3.7.3.15\\awssdk.dynamodbv2.3.7.3.15.nupkg.sha512"
   ],
   "logs": []
 }
