@@ -1,7 +1,4 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 using Amazon.Lambda.Core;
 
@@ -21,7 +18,16 @@ namespace BasicLambda
         /// <returns></returns>
         public string FunctionHandler(string input, ILambdaContext context)
         {
-            return $"Welcome, {input}";
+            string greeting = $"Welcome, {input}";
+            string specs = $"Request Id: " + context.AwsRequestId + ", ";
+            specs += "Function Name: " + context.FunctionName + ", ";
+            specs += "Function Version: " + context.FunctionVersion + ", ";
+            specs += "Time Remaining: " + context.RemainingTime + ", ";
+            specs += "Memory Limit (in MB): " + context.MemoryLimitInMB.ToString();
+            string message = $"{greeting}.{Environment.NewLine}{specs}";
+
+            return message;
+
         }
     }
 }
