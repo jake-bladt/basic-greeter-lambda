@@ -61,15 +61,12 @@ namespace BasicLambda
             var client = new AmazonDynamoDBClient();
             var table = Table.LoadTable(client, "walker_steps_data");
             
-            var filter = new QueryFilter();
             var userName = input.Name.ToLower();
-            var specificKey = $"{userName}@20220101";
-
-            filter.AddCondition("user_date_key", QueryOperator.Equal, specificKey);
-            // filter.AddCondition("user_name", QueryOperator.Equal, userName);
+            var filter = new QueryFilter("user_name", QueryOperator.Equal, userName);
 
             var config = new QueryOperationConfig
             {
+                IndexName = "username-index",
                 Filter = filter,
                 Select = SelectValues.AllAttributes
             };
