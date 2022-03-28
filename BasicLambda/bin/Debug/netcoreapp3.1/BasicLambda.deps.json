@@ -1,12 +1,11 @@
 {
   "runtimeTarget": {
-    "name": ".NETCoreApp,Version=v3.1/linux-x64",
+    "name": ".NETCoreApp,Version=v3.1",
     "signature": ""
   },
   "compilationOptions": {},
   "targets": {
-    ".NETCoreApp,Version=v3.1": {},
-    ".NETCoreApp,Version=v3.1/linux-x64": {
+    ".NETCoreApp,Version=v3.1": {
       "BasicLambda/1.0.0": {
         "dependencies": {
           "AWSSDK.DynamoDBv2": "3.7.3.15",

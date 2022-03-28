@@ -14,3 +14,5 @@ E:\code\BasicLambda\BasicLambda\obj\Release\netcoreapp3.1\linux-x64\BasicLambda.
 E:\code\BasicLambda\BasicLambda\obj\Release\netcoreapp3.1\linux-x64\BasicLambda.dll
 E:\code\BasicLambda\BasicLambda\obj\Release\netcoreapp3.1\linux-x64\BasicLambda.pdb
 E:\code\BasicLambda\BasicLambda\obj\Release\netcoreapp3.1\linux-x64\BasicLambda.genruntimeconfig.cache
+E:\code\BasicLambda\BasicLambda\bin\Release\netcoreapp3.1\linux-x64\AWSSDK.Core.dll
+E:\code\BasicLambda\BasicLambda\bin\Release\netcoreapp3.1\linux-x64\AWSSDK.DynamoDBv2.dll

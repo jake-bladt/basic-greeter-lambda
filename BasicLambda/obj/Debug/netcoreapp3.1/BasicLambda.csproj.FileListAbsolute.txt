@@ -1,0 +1,17 @@
+E:\code\BasicLambda\BasicLambda\bin\Debug\netcoreapp3.1\BasicLambda.deps.json
+E:\code\BasicLambda\BasicLambda\bin\Debug\netcoreapp3.1\BasicLambda.runtimeconfig.json
+E:\code\BasicLambda\BasicLambda\bin\Debug\netcoreapp3.1\BasicLambda.runtimeconfig.dev.json
+E:\code\BasicLambda\BasicLambda\bin\Debug\netcoreapp3.1\BasicLambda.dll
+E:\code\BasicLambda\BasicLambda\bin\Debug\netcoreapp3.1\BasicLambda.pdb
+E:\code\BasicLambda\BasicLambda\bin\Debug\netcoreapp3.1\Amazon.Lambda.Core.dll
+E:\code\BasicLambda\BasicLambda\bin\Debug\netcoreapp3.1\Amazon.Lambda.Serialization.SystemTextJson.dll
+E:\code\BasicLambda\BasicLambda\bin\Debug\netcoreapp3.1\AWSSDK.Core.dll
+E:\code\BasicLambda\BasicLambda\bin\Debug\netcoreapp3.1\AWSSDK.DynamoDBv2.dll
+E:\code\BasicLambda\BasicLambda\obj\Debug\netcoreapp3.1\BasicLambda.csproj.AssemblyReference.cache
+E:\code\BasicLambda\BasicLambda\obj\Debug\netcoreapp3.1\BasicLambda.AssemblyInfoInputs.cache
+E:\code\BasicLambda\BasicLambda\obj\Debug\netcoreapp3.1\BasicLambda.AssemblyInfo.cs
+E:\code\BasicLambda\BasicLambda\obj\Debug\netcoreapp3.1\BasicLambda.csproj.CoreCompileInputs.cache
+E:\code\BasicLambda\BasicLambda\obj\Debug\netcoreapp3.1\BasicLambda.csproj.CopyComplete
+E:\code\BasicLambda\BasicLambda\obj\Debug\netcoreapp3.1\BasicLambda.dll
+E:\code\BasicLambda\BasicLambda\obj\Debug\netcoreapp3.1\BasicLambda.pdb
+E:\code\BasicLambda\BasicLambda\obj\Debug\netcoreapp3.1\BasicLambda.genruntimeconfig.cache
