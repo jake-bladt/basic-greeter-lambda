@@ -1,0 +1,16 @@
+E:\code\BasicLambda\BasicLambda\bin\Release\netcoreapp3.1\linux-x64\BasicLambda.deps.json
+E:\code\BasicLambda\BasicLambda\bin\Release\netcoreapp3.1\linux-x64\BasicLambda.runtimeconfig.json
+E:\code\BasicLambda\BasicLambda\bin\Release\netcoreapp3.1\linux-x64\BasicLambda.runtimeconfig.dev.json
+E:\code\BasicLambda\BasicLambda\bin\Release\netcoreapp3.1\linux-x64\BasicLambda.dll
+E:\code\BasicLambda\BasicLambda\bin\Release\netcoreapp3.1\linux-x64\BasicLambda.pdb
+E:\code\BasicLambda\BasicLambda\bin\Release\netcoreapp3.1\linux-x64\Amazon.Lambda.Core.dll
+E:\code\BasicLambda\BasicLambda\bin\Release\netcoreapp3.1\linux-x64\Amazon.Lambda.Serialization.SystemTextJson.dll
+E:\code\BasicLambda\BasicLambda\obj\Release\netcoreapp3.1\linux-x64\BasicLambda.csproj.AssemblyReference.cache
+E:\code\BasicLambda\BasicLambda\obj\Release\netcoreapp3.1\linux-x64\BasicLambda.GeneratedMSBuildEditorConfig.editorconfig
+E:\code\BasicLambda\BasicLambda\obj\Release\netcoreapp3.1\linux-x64\BasicLambda.AssemblyInfoInputs.cache
+E:\code\BasicLambda\BasicLambda\obj\Release\netcoreapp3.1\linux-x64\BasicLambda.AssemblyInfo.cs
+E:\code\BasicLambda\BasicLambda\obj\Release\netcoreapp3.1\linux-x64\BasicLambda.csproj.CoreCompileInputs.cache
+E:\code\BasicLambda\BasicLambda\obj\Release\netcoreapp3.1\linux-x64\BasicLambda.csproj.CopyComplete
+E:\code\BasicLambda\BasicLambda\obj\Release\netcoreapp3.1\linux-x64\BasicLambda.dll
+E:\code\BasicLambda\BasicLambda\obj\Release\netcoreapp3.1\linux-x64\BasicLambda.pdb
+E:\code\BasicLambda\BasicLambda\obj\Release\netcoreapp3.1\linux-x64\BasicLambda.genruntimeconfig.cache

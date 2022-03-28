@@ -1,0 +1,6 @@
+E:\code\BasicLambda\BasicLambda\bin\Release\netcoreapp3.1\publish\BasicLambda.dll
+E:\code\BasicLambda\BasicLambda\bin\Release\netcoreapp3.1\publish\BasicLambda.deps.json
+E:\code\BasicLambda\BasicLambda\bin\Release\netcoreapp3.1\publish\BasicLambda.runtimeconfig.json
+E:\code\BasicLambda\BasicLambda\bin\Release\netcoreapp3.1\publish\BasicLambda.pdb
+E:\code\BasicLambda\BasicLambda\bin\Release\netcoreapp3.1\publish\Amazon.Lambda.Core.dll
+E:\code\BasicLambda\BasicLambda\bin\Release\netcoreapp3.1\publish\Amazon.Lambda.Serialization.SystemTextJson.dll
